@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" max="100" min="0" name="volume">
+        <button>Submit</button>
+
+        <!-- Step attribute -->
+        <label for="rating">Rating</label>
+        <input type="range" id="rating" max="100" min="0" name="rating" step="10" value="40">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
